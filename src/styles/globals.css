@@ -1,0 +1,76 @@
+html,
+:root {
+  --muf-primary: #1F3971;
+  --muf-dark-blue-90: #003D79;
+  --muf-dark-blue-100: #00264D;
+  --muf-dark-neutral: #E7E7E8;
+  --muf-dark-grey: #919193;
+  --muf-light-blue: #E0EFFF;
+  --muf-ink-blue: #005DBA;
+  --muf-ink-blue-50: #75BAFF;
+  --muf-ink-light: #57595C;
+  --muf-white: #FFFFFF;
+  --muf-light-grey: #B6B8BA;
+  --muf-neutral: #FAFAFA;
+  --muf-light-black: #454749;
+  --muf-general-black: #19191A;
+  --muf-black-90: #323334;
+  --muf-yellow-50: #FFC73A;
+  --muf-red-50: #F21F17;
+  --muf-red-40: #F88A86;
+  --muf-line: #E5E5E6;
+}
+
+body {
+  font-family: 'Myriad Pro', sans-serif;
+  background-color: var(--muf-white);
+  color: var(--muf-general-black);
+}
+
+body.dark-mode {
+  background-color: var(--muf-general-black);
+  color: var(--muf-white);
+}
+
+.muf-shadow-lg {
+  box-shadow: 4px 0px 15px 0px rgba(30, 30, 30, 0.12);
+}
+
+.muf-shadow-lg-b {
+  box-shadow: 0px 10px 15px -3px rgba(30, 30, 30, 0.12);
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("/fonts/MyriadPro.otf");
+}
+
+.logo {
+  background-color: var(--muf-dark-blue-100);
+  padding: 20px;
+  z-index: 99;
+}
+
+.header {
+  background-color: var(--muf-dark-blue-90);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: calc(100% - 276px);
+  display: flex;
+  height: 5rem;
+  z-index: 50;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-header {
+  color: var(--muf-white);
+}
+
+@media screen and (max-width: 990px) {
+	.sidebar {
+		display: none;
+	}
+}
+

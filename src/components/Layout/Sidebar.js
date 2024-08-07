@@ -6,11 +6,11 @@ const { Sider} = Layout;
 const Sidebar = () => (
   <div className="sidebar">
     <Sider width={275}>
-    <div className="logo">
-          <Image src={'/svg/muf_logo.svg'} height="40" width="94" preview={false}/>
-    </div>
-    <Menu mode='inline' items={menuList}>
-    </Menu>
+      <div className="logo">
+            <Image src={'/svg/muf_logo.svg'} height="40" width="94" preview={false}/>
+      </div>
+      <Menu mode='inline' items={menuList} defaultSelectedKeys={"home"}>
+      </Menu>
     </Sider>
   </div>
 );

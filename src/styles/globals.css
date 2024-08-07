@@ -46,17 +46,17 @@ body.dark-mode {
 }
 
 .logo {
-  background-color: var(--muf-dark-blue-100);
+  background-color: var(--muf-dark-blue-90);
   padding: 20px;
   z-index: 99;
 }
 
 .header {
-  background-color: var(--muf-dark-blue-90);
+  background-color: var(--muf-dark-blue-100);
   color: white;
   padding: 20px;
   text-align: center;
-  width: calc(100% - 276px);
+  width: calc(100% - 275px);
   display: flex;
   height: 5rem;
   z-index: 50;
@@ -66,11 +66,20 @@ body.dark-mode {
 
 .text-header {
   color: var(--muf-white);
+  font-size: large;
 }
 
 @media screen and (max-width: 990px) {
 	.sidebar {
 		display: none;
 	}
+  .header {
+    width: calc(100%);
+  }
+}
+
+.ant-menu-item-selected {
+  background-color: var(--muf-dark-blue-90) !important;
+  color: white !important;
 }
 

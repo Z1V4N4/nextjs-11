@@ -31,7 +31,7 @@ export const menuList = [
         key: 'rpr'
       },
       {
-        label: 'Report Generate All Document panjang',
+        label: 'Report Generate All Document',
         key: 'rgad'
       },
       {

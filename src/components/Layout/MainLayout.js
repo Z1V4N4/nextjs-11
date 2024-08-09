@@ -1,6 +1,6 @@
 import { Col } from "antd";
 import Header from "./Header";
-import DataInfo from "./DataInfo/index"
+//import DataInfo from "./DataInfo/index" //belum dibuat
 
 const MainLayout = () => {
   return (
@@ -9,7 +9,7 @@ const MainLayout = () => {
             <Header/>
         </Col>
         <Col>
-            <DataInfo/>
+            {/* <DataInfo/> */}
         </Col>
     </div>
   );
